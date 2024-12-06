@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/girl"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#9E06F011"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/v1"/>
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/h"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/anh222"
+        android:layout_below="@+id/v1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HOPE FOR"
+        android:textSize="30sp"
+        android:textColor="@color/white"
+        android:layout_below="@+id/anh222"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="10dp"
+        android:id="@+id/hpoe"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HUMANITY"
+        android:textColor="@color/white"
+        android:textSize="33sp"
+        android:textStyle="bold"
+        android:layout_below="@+id/hpoe"
+        android:layout_centerInParent="true"
+        android:id="@+id/tt2"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@id/tt2"
+        android:id="@+id/v33"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign in"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:layout_below="@id/v33"
+        android:layout_centerInParent="true"
+        android:id="@+id/tsin"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign up"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:layout_below="@id/tsin"
+        android:layout_centerInParent="true"
+        android:id="@+id/sinu"/>
+
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/main_menu"
+        android:title="@string/menu"
+        android:icon="@drawable/icon_squared_menu"/>
+    <item
+        android:id="@+id/stock_menu"
+        android:title="@string/stock"
+        android:icon="@drawable/icons_pulse"/>
+    <item
+        android:id="@+id/chart_column_menu"
+        android:title="@string/chart_column"
+        android:icon="@drawable/icon_column_chart"/>
+    <item
+        android:id="@+id/user_menu"
+        android:title="@string/user"
+        android:icon="@drawable/icon_user"/>
+</menu>
